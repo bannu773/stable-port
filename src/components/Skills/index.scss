@@ -1,0 +1,160 @@
+.skills-page{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    
+    
+    .text-zone{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 100px;
+      
+      
+    }
+  .tagcloud-wrap {
+    // background: gray;
+   
+    width: 53%;
+    
+    margin-top: -3%;
+  
+    .tagcloud {
+      color: #ff4500;
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 650;
+      margin: 10% auto;
+    }
+    .tagcloud--item:hover {
+      color: #00ff7f;
+    }
+  }
+}
+
+@media (max-width:991px)
+{
+  .skills-page{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    .text-zone{
+      
+      padding-top: 0px;
+      
+    }
+    .tagcloud-wrap{
+      .main{
+        .content{
+          .tagcloud{
+            width: 650px !important;
+            height: 50px !important;
+            margin-top: 300px ;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:768px)
+{
+  .skills-page{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    .text-zone{
+      
+      padding-top: 0px;
+      
+    }
+    .tagcloud-wrap{
+      .main{
+        .content{
+          .tagcloud{
+            width: 550px !important;
+            height: 50px !important;
+            margin-top: 300px ;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:520px)
+{
+  .skills-page{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    overflow: hidden;
+    .text-zone{
+      
+      padding-top: 0px;
+      
+    }
+    .tagcloud-wrap{
+      .main{
+        .content{
+          .tagcloud{
+            width: 50px !important;
+            height: 50px !important;
+            margin-top: 300px ;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:462px)
+{
+  .skills-page{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    overflow: hidden;
+    .text-zone{
+      
+      padding-top: 0px;
+      
+    }
+    .tagcloud-wrap{
+      .main{
+        .content{
+          .tagcloud{
+            width: 50px !important;
+            height: 50px !important;
+            margin-top: 300px ;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:371px)
+{
+  .skills-page{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    overflow: hidden;
+    .text-zone{
+      
+      padding-top: 0px;
+      
+    }
+    .tagcloud-wrap{
+      .main{
+        .content{
+          .tagcloud{
+            width: 50px !important;
+            height: 50px !important;
+            margin-top: 300px ;
+          }
+        }
+      }
+    }
+  }
+}
