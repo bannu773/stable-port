@@ -94,6 +94,7 @@ const Par_main = () => {
     {/* <!-- home section design --> */}
 
     <section id="home" className="home show-animate">
+     
       <div className="home-content">
         <h1>
           Hi, I'm <span>Hemanth Bandi</span>
@@ -293,7 +294,7 @@ const Par_main = () => {
 
     {/* <!-- skills section design --> */}
 
-    <section className="skills" id="skills">
+    {/* <section className="skills" id="skills">
       <h2 className="heading">
         My <span>Skills</span>
         <span className="animate scroll" style={{"--i": 1}}></span>
@@ -363,7 +364,7 @@ const Par_main = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
     {/* <!-- contact section design --> */}
 
@@ -430,7 +431,7 @@ const Par_main = () => {
 
       <div className="footer-iconTop">
         <a href="#"><i className="bx bx-up-arrow-alt"></i></a>
-        <span className="animate scroll" style={{"--i": 9}}></span>
+        <span className="animate scroll" style={{"--i": 2}}></span>
       </div>
     </footer>
     <script src="js/script.js"></script>

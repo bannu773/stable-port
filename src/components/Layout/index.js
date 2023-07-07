@@ -2,13 +2,16 @@ import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar/'
 import './index.scss'
 import './bg.css'
+import ParMain from '../mousetrail/mouse_trail'
 
 const Layout = () => {
   return (
     <div className="App">
       <Sidebar />
       <div className="page">
+      
       <Outlet />  
+      {/* <ParMain /> */}
         <span className="tags top-tags">&lt;body&gt;</span>
         <span className="tags bottom-tags">
           <div id="stars"></div>

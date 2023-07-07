@@ -5,6 +5,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import Logoh from './log.png'
 import Logo from './Logo'
 import './index.scss'
+import ParMain from '../mousetrail/mouse_trail'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -23,6 +24,7 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
+        
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>

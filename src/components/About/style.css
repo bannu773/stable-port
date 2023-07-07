@@ -138,6 +138,7 @@ section {
   background: url("./images/background1.jpg") no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: -1 !important;
 }
 
 .home-content {
